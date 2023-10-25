@@ -15,14 +15,35 @@
 
         <Grid.RowDefinitions>
             <RowDefinition Height="15*"/>
-            <RowDefinition Height="70*"/>
+            <RowDefinition Height="35*"/>
+            <RowDefinition Height="35*"/>
+            <RowDefinition Height="35*"/>
+            <RowDefinition Height="35*"/>
             <RowDefinition Height="15*"/>
         </Grid.RowDefinitions>
-        <ComboBox Width="200" Height="30">
+        <ComboBox Width="200" Grid.Column="1" Grid.Row="2">
+            <ComboBoxItem IsSelected="True">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/Img/cooper.jpg" Width="100" Height="50" Margin="5" Stretch="Fill"/>
+                    <TextBlock Text="Cooper" VerticalAlignment="Center"/>
+                </StackPanel>
+            </ComboBoxItem>
             <ComboBoxItem>
                 <StackPanel Orientation="Horizontal">
-                    <Image Source="/Img/brand.jpg" Width="50" Height="50" Margin="5"/>
+                    <Image Source="/Img/brand.jpg" Width="100" Height="50" Margin="5" Stretch="Fill"/>
                     <TextBlock Text="Brand" VerticalAlignment="Center"/>
+                </StackPanel>
+            </ComboBoxItem>
+            <ComboBoxItem>
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/Img/Amelia.jpg" Width="100" Height="50" Margin="5" Stretch="Fill"/>
+                    <TextBlock Text="Amelia" VerticalAlignment="Center"/>
+                </StackPanel>
+            </ComboBoxItem>
+            <ComboBoxItem>
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/Img/tars.jfif" Width="100" Height="50" Margin="5" Stretch="Fill"/>
+                    <TextBlock Text="Tars" VerticalAlignment="Center"/>
                 </StackPanel>
             </ComboBoxItem>
         </ComboBox>
@@ -30,6 +51,6 @@
         <Border Grid.Row="0" Grid.ColumnSpan="3" Background="DarkBlue"/>
         <TextBlock Text="Los controles de WPF" FontSize="24" HorizontalAlignment="Center" Grid.Column="1" Foreground="White"/>
         <TextBox Margin="10" VerticalScrollBarVisibility="Auto" SpellCheck.IsEnabled="True" 
-                 AcceptsReturn="True" TextWrapping="Wrap" Height="200" Grid.Column="1" Grid.Row="1">Este texti es correjible :)</TextBox>
+                 AcceptsReturn="True" TextWrapping="Wrap" Grid.Column="1" Grid.Row="1">Este texti es correjible :)</TextBox>
     </Grid>
 </Window>

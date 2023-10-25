@@ -13,3 +13,4 @@ C:\Users\alumTA\source\repos\ReposDEIN\Controles de Aritz\obj\Debug\Controles de
 C:\Users\alumTA\source\repos\ReposDEIN\Controles de Aritz\obj\Debug\Controles de Aritz.csproj.CoreCompileInputs.cache
 C:\Users\alumTA\source\repos\ReposDEIN\Controles de Aritz\obj\Debug\Controles de Aritz.exe
 C:\Users\alumTA\source\repos\ReposDEIN\Controles de Aritz\obj\Debug\Controles de Aritz.pdb
+C:\Users\alumTA\source\repos\ReposDEIN\Controles de Aritz\obj\Debug\Controles de Aritz_Content.g.cs
