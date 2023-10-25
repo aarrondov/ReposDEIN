@@ -5,9 +5,31 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Controles_de_Aritz"
         mc:Ignorable="d"
-        Title="Inicio" Height="450" Width="800" WindowStartupLocation="CenterScreen" WindowStyle="SingleBorderWindow">
+        Title="Inicio" Height="450" Width="800" WindowStartupLocation="CenterScreen" WindowStyle="ThreeDBorderWindow">
     <Grid>
-        <TextBlock Text="Los controles de WPF" FontSize="24" HorizontalAlignment="Center"/>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="15*"/>
+            <ColumnDefinition Width="70*"/>
+            <ColumnDefinition Width="15*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="15*"/>
+            <RowDefinition Height="70*"/>
+            <RowDefinition Height="15*"/>
+        </Grid.RowDefinitions>
+        <ComboBox Width="200" Height="30">
+            <ComboBoxItem>
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/Img/brand.jpg" Width="50" Height="50" Margin="5"/>
+                    <TextBlock Text="Brand" VerticalAlignment="Center"/>
+                </StackPanel>
+            </ComboBoxItem>
+        </ComboBox>
+
+        <Border Grid.Row="0" Grid.ColumnSpan="3" Background="DarkBlue"/>
+        <TextBlock Text="Los controles de WPF" FontSize="24" HorizontalAlignment="Center" Grid.Column="1" Foreground="White"/>
+        <TextBox Margin="10" VerticalScrollBarVisibility="Auto" SpellCheck.IsEnabled="True" 
+                 AcceptsReturn="True" TextWrapping="Wrap" Height="200" Grid.Column="1" Grid.Row="1">Este texti es correjible :)</TextBox>
     </Grid>
 </Window>
