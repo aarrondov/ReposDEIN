@@ -1,0 +1,15 @@
+C:\Users\alumTA\source\repos\ReposDEIN\Controles de Aritz\bin\Debug\Controles de Aritz.exe.config
+C:\Users\alumTA\source\repos\ReposDEIN\Controles de Aritz\bin\Debug\Controles de Aritz.exe
+C:\Users\alumTA\source\repos\ReposDEIN\Controles de Aritz\bin\Debug\Controles de Aritz.pdb
+C:\Users\alumTA\source\repos\ReposDEIN\Controles de Aritz\obj\Debug\Controles de Aritz.csproj.AssemblyReference.cache
+C:\Users\alumTA\source\repos\ReposDEIN\Controles de Aritz\obj\Debug\MainWindow.g.cs
+C:\Users\alumTA\source\repos\ReposDEIN\Controles de Aritz\obj\Debug\App.g.cs
+C:\Users\alumTA\source\repos\ReposDEIN\Controles de Aritz\obj\Debug\Controles de Aritz_MarkupCompile.cache
+C:\Users\alumTA\source\repos\ReposDEIN\Controles de Aritz\obj\Debug\Controles de Aritz_MarkupCompile.lref
+C:\Users\alumTA\source\repos\ReposDEIN\Controles de Aritz\obj\Debug\MainWindow.baml
+C:\Users\alumTA\source\repos\ReposDEIN\Controles de Aritz\obj\Debug\Controles de Aritz.g.resources
+C:\Users\alumTA\source\repos\ReposDEIN\Controles de Aritz\obj\Debug\Controles_de_Aritz.Properties.Resources.resources
+C:\Users\alumTA\source\repos\ReposDEIN\Controles de Aritz\obj\Debug\Controles de Aritz.csproj.GenerateResource.cache
+C:\Users\alumTA\source\repos\ReposDEIN\Controles de Aritz\obj\Debug\Controles de Aritz.csproj.CoreCompileInputs.cache
+C:\Users\alumTA\source\repos\ReposDEIN\Controles de Aritz\obj\Debug\Controles de Aritz.exe
+C:\Users\alumTA\source\repos\ReposDEIN\Controles de Aritz\obj\Debug\Controles de Aritz.pdb
