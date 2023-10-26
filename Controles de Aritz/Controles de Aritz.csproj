@@ -101,6 +101,7 @@
     <Resource Include="Img\brand.jpg" />
     <Resource Include="Img\cooper.jpg" />
     <Resource Include="Img\murph.jpg" />
+    <Resource Include="Img\tars-interstellar2.jpg" />
     <Content Include="Img\tars.jfif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

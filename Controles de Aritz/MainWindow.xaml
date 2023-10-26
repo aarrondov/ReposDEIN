@@ -42,12 +42,63 @@
             </ComboBoxItem>
             <ComboBoxItem>
                 <StackPanel Orientation="Horizontal">
-                    <Image Source="/Img/tars.jfif" Width="100" Height="50" Margin="5" Stretch="Fill"/>
+                    <Image Source="/Img/tars-interstellar2.jpg" Width="100" Height="50" Margin="5" Stretch="Fill"/>
                     <TextBlock Text="Tars" VerticalAlignment="Center"/>
                 </StackPanel>
             </ComboBoxItem>
         </ComboBox>
 
+        <ListBox HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="1" Grid.Row="3" SelectionChanged="ListBox_SelectionChanged">
+            <ListBoxItem>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="DEIN" Width="100" />
+                    <ProgressBar Value="30" Width="100"/>
+                </StackPanel>
+            </ListBoxItem>
+            <ListBoxItem>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="ACAD" Width="100" />
+                    <ProgressBar Value="60" Width="100"/>
+                </StackPanel>
+            </ListBoxItem>
+            <ListBoxItem>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="PMDM" Width="100" />
+                    <ProgressBar Value="40" Width="100"/>
+                </StackPanel>
+            </ListBoxItem>
+            <ListBoxItem>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="Inglés" Width="100" />
+                    <ProgressBar Value="100" Width="100"/>
+                </StackPanel>
+            </ListBoxItem>
+            <ListBoxItem>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="Empresa" Width="100" />
+                    <ProgressBar Value="100" Width="100"/>
+                </StackPanel>
+            </ListBoxItem>
+            <ListBoxItem>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="PSEP" Width="100" Foreground="Red"/>
+                    <ProgressBar Value="50" Width="100"/>
+                </StackPanel>
+            </ListBoxItem>
+            <ListBoxItem>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="SGEM" Width="100" />
+                    <ProgressBar Value="70" Width="100"/>
+                </StackPanel>
+            </ListBoxItem>
+            <ListBoxItem>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="DEW" Width="100" />
+                    <ProgressBar Value="100" Width="100"/>
+                </StackPanel>
+            </ListBoxItem>
+        </ListBox>
+        
         <Border Grid.Row="0" Grid.ColumnSpan="3" Background="DarkBlue"/>
         <TextBlock Text="Los controles de WPF" FontSize="24" HorizontalAlignment="Center" Grid.Column="1" Foreground="White"/>
         <TextBox Margin="10" VerticalScrollBarVisibility="Auto" SpellCheck.IsEnabled="True" 

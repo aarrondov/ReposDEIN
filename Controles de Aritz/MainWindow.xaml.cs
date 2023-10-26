@@ -24,5 +24,10 @@ namespace Controles_de_Aritz
         {
             InitializeComponent();
         }
+
+        private void ListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
     }
 }
