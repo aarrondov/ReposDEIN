@@ -18,6 +18,9 @@
             <RowDefinition Height="auto"></RowDefinition>
             <RowDefinition Height="auto"></RowDefinition>
             <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
         </Grid.RowDefinitions>
         <Grid.Resources>
             <Style TargetType="Label">
@@ -93,6 +96,14 @@
                 <ComboBoxItem Content="Desarollador" IsSelected="True"/>
                 <ComboBoxItem Content="Analista"/>
             </ComboBox>
+        </StackPanel>
+        <StackPanel Grid.Row="6" Grid.ColumnSpan="2" Margin="20,10">
+            <TextBlock>Descripción del puesto de trabajo actual:</TextBlock>
+            <TextBox AcceptsReturn="True" TextWrapping="Wrap" SpellCheck.IsEnabled="True" Height="84" Margin="0,5"/>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Center" Grid.Row="7" Grid.ColumnSpan="2" Orientation="Horizontal">
+            <Button x:Name="Guardar" Content="Guardar" Margin="10" Padding="10"/>
+            <Button x:Name="Cancelar" Content="Cancelar" Margin="10" Padding="10"/>
         </StackPanel>
     </Grid>
 </Window>
