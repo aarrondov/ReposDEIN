@@ -6,7 +6,12 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace Estilos_de_Aritz_A
+namespace ProyectoFigma
 {
-
+    /// <summary>
+    /// Lógica de interacción para App.xaml
+    /// </summary>
+    public partial class App : Application
+    {
+    }
 }

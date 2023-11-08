@@ -10,17 +10,16 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace Estilos_de_Aritz_A
 {
     /// <summary>
-    /// Lógica de interacción para MainWindow.xaml
+    /// Lógica de interacción para Window1.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Window1 : Window
     {
-        public MainWindow()
+        public Window1()
         {
             InitializeComponent();
         }
@@ -37,6 +36,11 @@ namespace Estilos_de_Aritz_A
             Window1 w1 = new Window1();
             Close();
             w1.Show();
+        }
+
+        private void Error(object sender, RoutedEventArgs e)
+        {
+            //WindowError ventanaError = new WindowError();
         }
     }
 }

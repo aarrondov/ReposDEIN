@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Estilos_de_Aritz_A
+namespace ProyectoFigma
 {
     /// <summary>
     /// Lógica de interacción para MainWindow.xaml
@@ -23,20 +23,6 @@ namespace Estilos_de_Aritz_A
         public MainWindow()
         {
             InitializeComponent();
-        }
-
-        private void Home(object sender, RoutedEventArgs e)
-        {
-            MainWindow w = new MainWindow();
-            Close();
-            w.Show();
-        }
-
-        private void WindowSearch(object sender, RoutedEventArgs e)
-        {
-            Window1 w1 = new Window1();
-            Close();
-            w1.Show();
         }
     }
 }

@@ -10,26 +10,18 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Estilos_de_Aritz_A
+namespace Estilos_de_Aritz_A.img
 {
     /// <summary>
-    /// Lógica de interacción para MainWindow.xaml
+    /// Lógica de interacción para WindowError.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class WindowError : Window
     {
-        public MainWindow()
+        public WindowError()
         {
             InitializeComponent();
-        }
-
-        private void Home(object sender, RoutedEventArgs e)
-        {
-            MainWindow w = new MainWindow();
-            Close();
-            w.Show();
         }
 
         private void WindowSearch(object sender, RoutedEventArgs e)
@@ -37,6 +29,13 @@ namespace Estilos_de_Aritz_A
             Window1 w1 = new Window1();
             Close();
             w1.Show();
+        }
+
+        private void Home(object sender, RoutedEventArgs e)
+        {
+            MainWindow mw = new MainWindow();
+            Close();
+            mw.Show();
         }
     }
 }
